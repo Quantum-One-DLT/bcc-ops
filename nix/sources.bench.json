@@ -1,0 +1,14 @@
+{
+    "bcc-node": {
+         "branch": "",
+         "description": null,
+         "homepage": null,
+         "owner": "The-Blockchain-Company",
+         "repo": "bcc-node",
+         "rev": "0f4a85fac2b6a7c2afccdd7f03bedb257f7b1f41",
+         "sha256": "0vgbirbc45rkrfpm7d5ma29g5rqq25s7mw1k0ff1z2x9w81gc9w8",
+         "type": "tarball",
+         "url": "https://github.com/The-Blockchain-Company/bcc-node/archive/0f4a85fac2b6a7c2afccdd7f03bedb257f7b1f41.tar.gz",
+         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+     }
+}
