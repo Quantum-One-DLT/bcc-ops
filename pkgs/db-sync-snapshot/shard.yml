@@ -2,7 +2,7 @@ name: db-sync-snapshot
 version: 0.1.0
 
 authors:
-  - Jean-Baptiste Giraudeau <jean-baptiste.giraudeau@tbco.io>
+  - Jean-Baptiste Giraudeau <jean-baptiste.giraudeau@blockchain-company.io>
 
 description: |
   Upload db-sync snapshot, to be schedule on a X epochs period.

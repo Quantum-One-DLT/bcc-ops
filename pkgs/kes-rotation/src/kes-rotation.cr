@@ -18,7 +18,7 @@ PATH_MOD                = ENV.fetch("PATH_MOD", ".")
 DENIED_CLUSTERS         = [ "mainnet" ] of String
 
 EMAIL_FROM              = "devops@ci.tbcodev.io"
-EMAIL_TO                = "devops@tbco.io"
+EMAIL_TO                = "devops@blockchain-company.io"
 LATEST_BCC_URL      = "https://hydra.tbco.io/job/Bcc/tbco-nix/bcc-deployment/latest-finished"
 NODE_METRICS_PORT       = 12798
 NOW                     = Time.utc.to_s("%F %R %z")

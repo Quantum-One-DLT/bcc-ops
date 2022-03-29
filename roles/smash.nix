@@ -71,7 +71,7 @@ in {
     '';
   };
   security.acme = lib.mkIf (config.deployment.targetEnv != "libvirtd") {
-    email = "devops@tbco.io";
+    email = "devops@blockchain-company.io";
     acceptTerms = true; # https://letsencrypt.org/repository/
   };
   networking.firewall.allowedTCPPorts = [ 80 443 ];

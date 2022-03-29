@@ -59,7 +59,7 @@ in {
         };
       };
       certificatesResolvers.default.acme = {
-        email = "devops@tbco.io";
+        email = "devops@blockchain-company.io";
         storage = "/var/lib/traefik/acme.json";
         httpChallenge = {
           entryPoint = "web";

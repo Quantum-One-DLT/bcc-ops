@@ -30,12 +30,12 @@ pkgs: {
     instances.metadata = pkgs.tbco-ops-lib.physical.aws.t3a-xlarge;
   };
 
-  relayUpdateArgs = "-m 50 -s -e devops@tbco.io";
+  relayUpdateArgs = "-m 50 -s -e devops@blockchain-company.io";
   # Trigger relay topology refresh 12 hours before next epoch
   relayUpdateHoursBeforeNextEpoch = 12;
   dbSyncSnapshotPeriod = "15d";
 
-  dbSyncSnapshotArgs = "-e devops@tbco.io";
+  dbSyncSnapshotArgs = "-e devops@blockchain-company.io";
 
   alertChainDensityLow = "50";
 

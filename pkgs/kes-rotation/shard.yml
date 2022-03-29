@@ -2,7 +2,7 @@ name: kes-rotation
 version: 0.1.0
 
 authors:
-  - John Lotoski <john.lotoski@tbco.io>
+  - John Lotoski <john.lotoski@blockchain-company.io>
 
 description: |
   KES key rotation script for use in crontab

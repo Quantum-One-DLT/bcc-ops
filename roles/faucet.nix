@@ -72,7 +72,7 @@ in {
   users.users.bcc-node.extraGroups = [ "keys" ];
 
   security.acme = mkIf (config.deployment.targetEnv != "libvirtd") {
-    email = "devops@tbco.io";
+    email = "devops@blockchain-company.io";
     acceptTerms = true; # https://letsencrypt.org/repository/
   };
   services.nginx = {

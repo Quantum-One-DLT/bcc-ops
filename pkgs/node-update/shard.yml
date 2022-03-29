@@ -2,7 +2,7 @@ name: node-update
 version: 0.1.0
 
 authors:
-  - John Lotoski <john.lotoski@tbco.io>
+  - John Lotoski <john.lotoski@blockchain-company.io>
 
 description: |
   Peer update and rotation script for use in crontab

@@ -47,11 +47,11 @@ pkgs: {
     };
   };
 
-  relayUpdateArgs = "-m 1500 --maxNodes 12 -s -e devops@tbco.io";
+  relayUpdateArgs = "-m 1500 --maxNodes 12 -s -e devops@blockchain-company.io";
   # Trigger relay topology refresh 12 hours before next epoch
   relayUpdateHoursBeforeNextEpoch = 12;
 
-  dbSyncSnapshotArgs = "-e devops@tbco.io";
+  dbSyncSnapshotArgs = "-e devops@blockchain-company.io";
 
   alertChainDensityLow = "85";
 
